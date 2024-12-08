@@ -1,0 +1,226 @@
+.headingRect {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--violet);
+  z-index: 0;
+}
+.uilenvelopeAltIcon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.userIcon {
+  height: 17px;
+  width: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.mhhasanulgmailcom {
+  text-decoration: none;
+  height: 16px;
+  width: 172px;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.userLeft {
+  height: 17px;
+  width: 197px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.a,
+.bxbxPhoneCallIcon {
+  height: 16px;
+  position: relative;
+  flex-shrink: 0;
+}
+.bxbxPhoneCallIcon {
+  width: 16px;
+  overflow: hidden;
+  z-index: 2;
+}
+.a {
+  text-decoration: none;
+  width: 98px;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.userInfo,
+.userRight {
+  height: 16px;
+  width: 125px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.userInfo {
+  width: 370px;
+  height: 17px;
+  align-items: flex-end;
+  gap: var(--gap-29xl);
+}
+.headingContent {
+  height: 20px;
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.english {
+  text-decoration: none;
+  width: 55px;
+  height: 16px;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.brand {
+  height: 21px;
+  width: 54px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+}
+.menuChild,
+.usd {
+  position: relative;
+}
+.menuChild {
+  height: 24px;
+  width: 301px;
+  z-index: 4;
+}
+.usd {
+  text-decoration: none;
+  width: 35px;
+  height: 16px;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.menuItems {
+  height: 21px;
+  width: 334px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-281xl) 0 0;
+  box-sizing: border-box;
+  z-index: 1;
+  margin-left: -268px;
+}
+.login {
+  text-decoration: none;
+  width: 44px;
+  height: 16px;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.menuItems1 {
+  height: 21px;
+  width: 343px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-281xl) 0 0;
+  box-sizing: border-box;
+  z-index: 2;
+  margin-left: -268px;
+}
+.wishlist {
+  text-decoration: none;
+  width: 59px;
+  height: 16px;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.menu,
+.menuItems2 {
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.menuItems2 {
+  height: 21px;
+  width: 58px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+  z-index: 3;
+  margin-left: -268px;
+}
+.menu {
+  height: 24px;
+  width: 301px;
+  padding: 0;
+}
+.headingBar,
+.menu,
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.navigation {
+  height: 24px;
+  width: 356px;
+  align-items: flex-start;
+  gap: var(--gap-12xs);
+  z-index: 2;
+}
+.headingBar {
+  width: 1920px;
+  height: 44px;
+  align-items: flex-end;
+  padding: var(--padding-4xs) var(--padding-353xl) var(--padding-2xs)
+    var(--padding-358xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-426xl);
+  text-align: left;
+  font-size: var(--paragraph-text-size);
+  color: var(--color-whitesmoke);
+  font-family: var(--list-titles);
+}

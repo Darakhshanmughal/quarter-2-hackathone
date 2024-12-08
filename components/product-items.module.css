@@ -1,0 +1,225 @@
+.div {
+  position: relative;
+  font-size: var(--font-size-sm-3);
+  color: var(--color-slategray);
+  display: none;
+  min-width: 25.4px;
+}
+.sofa {
+  min-width: 44.2px;
+}
+.arm,
+.frameChild,
+.sofa {
+  position: relative;
+  display: none;
+}
+.arm {
+  min-width: 37.5px;
+}
+.frameChild {
+  height: 254px;
+  width: 1141px;
+  box-shadow: 0 0 25px 5px rgba(246, 246, 253, 0.5);
+  background-color: var(--color-white);
+  max-width: 100%;
+}
+.productImageIcon {
+  height: 217.6px;
+  width: 313.6px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.accumsanTincidunt {
+  flex: 1;
+  position: relative;
+  z-index: 2;
+}
+.productStarRatingChild,
+.productStarRatingInner,
+.productStarRatingItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-peru);
+  width: 12.1px;
+  height: 12.1px;
+  z-index: 2;
+}
+.productStarRatingInner,
+.productStarRatingItem {
+  left: 17.7px;
+  background-color: var(--color-deeppink-200);
+}
+.productStarRatingInner {
+  left: 35.4px;
+  background-color: var(--color-mediumblue);
+}
+.productStarRating {
+  width: 47.5px;
+  height: 12.1px;
+  position: relative;
+}
+.productBrand,
+.productRating {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.productRating {
+  flex-direction: column;
+  padding: var(--padding-9xs-3) 0 0;
+}
+.productBrand {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-lg-2);
+}
+.div1,
+.stars {
+  position: relative;
+  z-index: 2;
+}
+.stars {
+  text-decoration: line-through;
+}
+.productSeparator {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) 0 0;
+  color: var(--color-deeppink-100);
+}
+.antDesignstarFilledIcon {
+  height: 13.3px;
+  width: 13.3px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.priceRating {
+  flex-direction: row;
+  gap: var(--gap-10xs-4);
+}
+.group,
+.priceRating,
+.productTitleWrap {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.group {
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-base-5);
+}
+.productTitleWrap {
+  width: 250.7px;
+  flex-direction: column;
+  gap: var(--gap-mini-2);
+  flex-shrink: 0;
+}
+.loremIpsumDolor {
+  position: relative;
+  font-size: var(--font-size-mid-7);
+  line-height: 30.9px;
+  font-family: var(--paragraph-text);
+  color: var(--color-lightslategray-100);
+  flex-shrink: 0;
+  z-index: 2;
+}
+.productNameContainer,
+.productTitle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.productTitle {
+  height: 107.1px;
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-2xs);
+}
+.productNameContainer {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.productNameChild {
+  width: 144.7px;
+  height: 34.2px;
+  position: relative;
+  z-index: 2;
+}
+.productName {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl-9);
+  max-width: 100%;
+}
+.parent,
+.productInfo,
+.productItems {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.productInfo {
+  width: 593px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-smi-3);
+}
+.parent,
+.productItems {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.parent {
+  flex: 1;
+  box-shadow: 0 0 25px 5px rgba(246, 246, 253, 0.5);
+  background-color: var(--color-white);
+  align-items: flex-end;
+  padding: var(--padding-mid-7) var(--padding-lgi) var(--padding-lg-7);
+  gap: var(--gap-11xl-9);
+  z-index: 1;
+}
+.productItems {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 var(--padding-9xs) 0 var(--padding-10xs);
+  text-align: left;
+  font-size: var(--font-size-lgi-9);
+  color: var(--color-midnightblue-100);
+  font-family: var(--list-titles);
+}
+@media screen and (max-width: 1275px) {
+  .productImageIcon,
+  .productInfo {
+    flex: 1;
+  }
+  .parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 900px) {
+  .productName {
+    gap: var(--gap-mini);
+  }
+  .productInfo {
+    min-width: 100%;
+  }
+  .parent {
+    gap: var(--gap-mini);
+  }
+}

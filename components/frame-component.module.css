@@ -1,0 +1,22 @@
+.content,
+.headingBarParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.content {
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+  font-size: var(--font-size-15xl);
+  color: var(--color-midnightblue-300);
+}
+.headingBarParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+  text-align: left;
+  font-size: var(--paragraph-text-size);
+  color: var(--color-whitesmoke);
+  font-family: var(--list-titles);
+}

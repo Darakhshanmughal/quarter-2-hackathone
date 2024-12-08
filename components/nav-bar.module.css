@@ -1,0 +1,233 @@
+.hekto,
+.home {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.hekto {
+  height: 34px;
+  width: 99px;
+  font-weight: 700;
+}
+.home {
+  height: 20px;
+  width: 44px;
+  line-height: 20px;
+}
+.homeWrapper {
+  height: 20px;
+  width: 43px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.akarIconschevronDown {
+  width: 12px;
+  position: relative;
+  height: 12px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.chevron,
+.homeLink {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.chevron {
+  height: 16px;
+  width: 12px;
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+}
+.homeLink {
+  height: 20px;
+  width: 57px;
+  flex-direction: row;
+  gap: var(--gap-11xs);
+  color: var(--accent);
+}
+.pages {
+  text-decoration: none;
+  width: 42px;
+  height: 20px;
+  position: relative;
+  line-height: 20px;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.navLinkElements {
+  height: 20px;
+  width: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm) 0 0;
+  box-sizing: border-box;
+}
+.products {
+  text-decoration: none;
+  width: 65px;
+  height: 20px;
+  position: relative;
+  line-height: 20px;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.navLinkElements1 {
+  height: 20px;
+  width: 78px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm) 0 0;
+  box-sizing: border-box;
+}
+.blog {
+  text-decoration: none;
+  width: 33px;
+  height: 20px;
+  position: relative;
+  line-height: 20px;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.navLinkElements2 {
+  height: 20px;
+  width: 46px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm) 0 0;
+  box-sizing: border-box;
+}
+.shop {
+  text-decoration: none;
+  width: 37px;
+  height: 20px;
+  position: relative;
+  line-height: 20px;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.navLinkElements3 {
+  height: 20px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm) 0 0;
+  box-sizing: border-box;
+}
+.contact {
+  text-decoration: none;
+  height: 20px;
+  width: 58px;
+  position: relative;
+  line-height: 20px;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.navLinkItems {
+  width: 448px;
+  height: 20px;
+  flex-direction: row;
+  gap: var(--gap-2xl);
+}
+.navLinkItems,
+.navigationLinks,
+.searchField,
+.searchInput {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navigationLinks {
+  height: 27px;
+  width: 448px;
+  flex-direction: column;
+  padding: var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+  font-size: var(--paragraph-text-size);
+  font-family: var(--paragraph-text);
+}
+.searchField,
+.searchInput {
+  width: 634px;
+}
+.searchField {
+  height: 34px;
+  flex-direction: row;
+  gap: var(--gap-69xl);
+}
+.searchInput {
+  height: 37px;
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.searchRect {
+  width: 100%;
+  left: 0;
+  border: 2px solid var(--color-lavender-200);
+  box-sizing: border-box;
+}
+.searchIconRect,
+.searchIconRectWrapper,
+.searchRect {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.searchIconRect {
+  width: 100%;
+  left: 0;
+  background-color: var(--accent);
+}
+.searchIconRectWrapper {
+  width: 16.09%;
+  left: 83.91%;
+}
+.uilsearchIcon {
+  position: absolute;
+  top: calc(50% - 12px);
+  right: 13px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.searchRectParent {
+  height: 40px;
+  width: 317px;
+  position: relative;
+  z-index: 1;
+}
+.navBar {
+  height: 40px;
+  width: 1177px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-207xl);
+  text-align: left;
+  font-size: var(--font-size-15xl);
+  color: var(--color-midnightblue-300);
+  font-family: var(--list-titles);
+}

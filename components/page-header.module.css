@@ -1,0 +1,118 @@
+.breadcrumbChild {
+  height: 286px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+.home,
+.shopList {
+  position: relative;
+  z-index: 1;
+}
+.shopList {
+  margin: 0;
+  width: 162px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.home {
+  text-decoration: none;
+  font-weight: 500;
+  color: inherit;
+}
+.breadcrumLinks {
+  width: 5px;
+  flex-shrink: 0;
+  min-width: 5px;
+}
+.breadcrumLinks,
+.breadcrumLinks1,
+.pages,
+.shopList1 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.pages {
+  min-width: 43px;
+}
+.breadcrumLinks1,
+.shopList1 {
+  color: var(--accent);
+}
+.breadcrumLinks1 {
+  width: 5px;
+  flex-shrink: 0;
+  min-width: 5px;
+}
+.shopList1 {
+  flex: 1;
+  min-width: 66px;
+}
+.breadcrumItems {
+  width: 175px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs-3);
+}
+.breadcrumList {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-12xs);
+  font-size: var(--paragraph-text-size);
+  color: var(--color-black);
+  font-family: var(--paragraph-text);
+}
+.breadcrumList,
+.breadcrumb,
+.pageHeader,
+.shopListParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.shopListParent {
+  margin: 0 !important;
+  position: absolute;
+  top: 96px;
+  left: 374px;
+  flex-direction: column;
+  gap: var(--gap-4xs);
+}
+.breadcrumb,
+.pageHeader {
+  flex-direction: row;
+  max-width: 100%;
+}
+.breadcrumb {
+  flex: 1;
+  position: relative;
+}
+.pageHeader {
+  align-self: stretch;
+  padding: 0 0 var(--padding-83xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-midnightblue-200);
+  font-family: var(--list-titles);
+}
+@media screen and (max-width: 900px) {
+  .shopList {
+    font-size: var(--font-size-10xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .shopList {
+    font-size: var(--list-titles-size);
+  }
+  .pageHeader {
+    padding-bottom: var(--padding-47xl);
+    box-sizing: border-box;
+  }
+}
